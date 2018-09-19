@@ -1,0 +1,38 @@
+.TodoForm__wrapper {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.TodoForm__input-wrapper {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  flex: 2;
+}
+
+.TodoForm__input-wrapper > input[type=text] {
+  height: 70px;
+  width: 100%;
+  font-size: 30px;
+  border: 1px solid #ece;
+  border-radius: 4px;
+  background-color: rgba(240,240,240,0.8);
+  padding: 0 10px;
+}
+
+.TodoForm__wrapper .button__wrapper {
+  flex: 1;
+  height: 70px;
+  display: flex;
+  align-items: center;
+}
+
+.TodoForm__wrapper .button__wrapper button {
+  border: 1px solid #ece;
+  height: 70px;
+  width: 100%;
+  margin-left: 20px;
+  font-size: 30px;
+  border-radius: 4px;
+}

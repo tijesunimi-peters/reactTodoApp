@@ -1,0 +1,9 @@
+.App {
+  display: flex;
+  justify-content: center;
+}
+
+.App__container {
+  max-width: 960px;
+  width: 100%;
+}
